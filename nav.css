@@ -18,3 +18,26 @@
     justify-content: center;
     height: 20%;
 }
+.nav-item:hover{
+    align-content: center;
+    justify-content: center;
+    height: 5%;
+    width: 2.5%;
+    display: flex;
+    list-style: none;
+    margin: 1%;
+    border: 2px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    animation: nav-item-hover 100ms forwards;
+}
+
+@keyframes nav-item-hover{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: gray;
+    }
+}
