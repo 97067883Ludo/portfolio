@@ -1,36 +1,51 @@
 .nav-item{
     align-content: center;
     justify-content: center;
-    height: 20px;
-    width: 2.5%;
+    height: 25%;
+    width: 77px;
     display: flex;
     list-style: none;
     margin: 1%;
-    border: 2px solid black;
     background-color: black;
     color: white;
     padding: 10px;
     border-radius: 10px;
+    text-decoration: none;
+}
+.nav-item-selected{
+    align-content: center;
+    justify-content: center;
+    height: 25%;
+    width: 77px;
+    display: flex;
+    list-style: none;
+    margin: 1%;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 .nav-items{
+    background-color: #e7ecef;
     display: flex;
     align-content: center;
     justify-content: center;
-    height: 20%;
+    height: 67.828px;
 }
 .nav-item:hover{
     align-content: center;
     justify-content: center;
-    height: 5%;
-    width: 2.5%;
+    height: 25%;
+    width: 77px;
     display: flex;
     list-style: none;
     margin: 1%;
-    border: 2px;
     color: white;
     padding: 10px;
     border-radius: 10px;
-    animation: nav-item-hover 100ms forwards;
+    animation: nav-item-hover 250ms forwards;
+    text-decoration: none;
 }
 
 @keyframes nav-item-hover{
